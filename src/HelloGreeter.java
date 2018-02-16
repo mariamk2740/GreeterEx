@@ -8,6 +8,13 @@ public class HelloGreeter {
 
 		//new greeter
 		
+		//create dimensional array of greeter objects, display the state of the greeter objects
+		GreeterClass []letsdoit = new GreeterClass[3];
+		int i = 1;
+			for (i = 1; i < 3; i ++) {
+				System.out.println( letsdoit.toString());
+			}
+		
 		
 	}
 
